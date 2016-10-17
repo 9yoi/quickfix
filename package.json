@@ -4,7 +4,8 @@
   "description": "",
   "main": "data.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel src --out-dir dist --presets=es2015,react --ignore=node_modules,dist,views,server.js --source-maps inline --watch"
   },
   "repository": {
     "type": "git",
