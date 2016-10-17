@@ -1,0 +1,33 @@
+{
+  "name": "2016-09-mvp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meijiao/2016-09-mvp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meijiao/2016-09-mvp/issues"
+  },
+  "homepage": "https://github.com/meijiao/2016-09-mvp#readme",
+  "dependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "bootstrap": "^3.3.7",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "jquery": "^3.1.1",
+    "mongoose": "^4.6.4",
+    "nodemon": "^1.11.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-tools": "^0.13.3"
+  }
+}
