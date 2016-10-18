@@ -1,8 +1,11 @@
 var mongoose = require ('mongoose');
+var seed = require ('../seed/seed');
+
+var Shops = require('../shops/shopsModel')
 
 module.exports = function () {
 
-  mongoose.connect('mongodb://localhost/test');
+  mongoose.connect('mongodb://localhost/mvp');
 
   var db = mongoose.connection;
   
@@ -12,7 +15,9 @@ module.exports = function () {
 
   db.on('open', function() {
     // we're connected!
+    seed();
     console.log('mongoose connected');
+
   });
 
 };

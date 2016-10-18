@@ -6,9 +6,11 @@ var shopsRouter = require('express').Router();
 
 //shopsRouter.get('/', shopsController.getAll);
 
-shopsRouter.get('/', (req, res) => {
-  // grab db data
+// for testing only: render static page with fake data
+shopsRouter.get('/', (req, res) => {  
   res.render('index');
 }); 
+
+//shopsRouter.post('/deal', shopsController.postDeal);
 
 module.exports = shopsRouter;
