@@ -19,26 +19,48 @@ Once the project moves into development, the press release can be used as a touc
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
 
+Too busy to cook? Too broke to eat out? Get take-out at bargain prices here.
+
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+
+This product is for the Hungry & Harried Hustler who is too busy to cook and would like to purchase take-out at lower prices. 
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
 
+"Quick Fix" allows restaurants to list their excess meals at discounted prices. For example, a restaurant might discover at 8pm that they are having a slow business day because of the rain, and have 20 excess meals that they would have to throw away if no one purchases it. They might choose to list it on this site at 50% off. Diners can check this site for daily deals. This is a win-win for both restaurants and diners.
+
 ## Problem ##
   > Describe the problem your product solves.
+- Restaurants:
+  -  Lost revenue when they have excess food at the end of the day that would go bad if not sold
+  - No advertising medium to reach out to diners about last-minute deals  
+- Diners:
+  -  Too busy to cook
+    -  Eating out daily is often too pricey.
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
+- Merchants: 
+  - Easily list excess food at discounted prices
+  - Reach out to a large base of diners
+- Consumers: 
+  - Look for, and buy yummy meals at discounted prices.
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
-
+- Yummy meals from your favourite restaurants now at a discount!
+  
 ## How to Get Started ##
   > Describe how easy it is to get started.
+- Restaurants: List your deals
+- Diners: Browse and Buy
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+- Quick Fix changed my life! I'm now enjoying great food at great prices, without worrying about cooking.
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+- Check it out today!
