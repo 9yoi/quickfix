@@ -1,0 +1,26 @@
+.container {
+  margin: 10px;
+}
+
+.list {
+  margin: 10px;
+
+}
+
+.entry {
+  margin: 1em 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.info {
+  width: 70%;
+}
+
+li {
+  list-style: none;
+}
+
+.info {
+  margin: 10px, 10px;
+}
