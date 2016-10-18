@@ -1,6 +1,5 @@
 var mongoose = require('mongoose');
-// ????
-//mongoose.connect('mongodb://localhost/Test');
+mongoose.connect('mongodb://localhost/test');
 
 var ShopsSchema = new mongoose.Schema({
   restaurant_name: String,
