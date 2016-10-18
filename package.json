@@ -1,0 +1,23 @@
+{
+  "name": "2016-09-mvp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "controller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meijiao/2016-09-mvp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meijiao/2016-09-mvp/issues"
+  },
+  "homepage": "https://github.com/meijiao/2016-09-mvp#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

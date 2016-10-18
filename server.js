@@ -1,12 +1,8 @@
-var express = require('express');
-var app = new express();
-var path = require('path');
-
-//app.use(express.static(path.join(__dirname, 'public')));
+const express = require('express');
+const app = express();
 
 app.get('/', function (req, res) {
-  //res.send("hello world");
-  res.render('./../views/index.ejs');
+  res.send('getting index');
 });
 
 app.listen(3000, function () {
