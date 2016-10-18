@@ -34,6 +34,6 @@ var shopsData =
   "location": "69 Scofield Alley",
   "telephone": "420-(943)476-3096",
   "meal": "dui maecenas"
-}]
+}];
 
 window.shopsData = shopsData;

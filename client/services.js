@@ -1,21 +1,21 @@
-var angular.module('viewer',['ngRoute'])
+var app = angular.module('viewer');
 
-.config(function($routeProvider) {
+var configSettings = function($routeProvider) {
   $routeProvider
   .when('/', {
     templateUrl: 'index.ejs'
-    controller: 'MainController'
+    controller: 'shopsController'
   });
-})
-.factory('$shops', function($http) {
+};
+
+var shopsFactory = function($http) {
 
   var getAll = function () {
     return $http({
       method: 'GET',
       url:'/'
     }).then(function(resp) {
-      console.log('resp in getAll', resp)
-      return resp.data;
+      console.log('resp in factory $Shop getAll', resp)
     })
   };
 
@@ -23,10 +23,7 @@ var angular.module('viewer',['ngRoute'])
     getAll: getAll; 
   }
 
-}
-.controller('MainController', function($scope, $shops)) {
+});
 
-  var name = function () {
-
-  }
-}
+app.config(configSettings);
+app.factory($Shops, shopsFactory)

@@ -4,7 +4,22 @@
 
     $scope.shopsData = window.shopsData;
 
-  };
-  
-  app.controller("ShopsController", ShopsController);
+    // $scope.data = {};
 
+    // var initializedata = function () {
+    //   console.log('initializing data in front controller')
+    //   $Shops.getAll()
+    //     .then(function(entries) {
+    //       $scope.data.shops = entries;
+    //     })
+    //     .catch(function(err) {
+    //       console.error(err);
+    //     });
+    // };
+
+    // initializedata();
+
+};
+
+
+  app.controller("ShopsController", ShopsController);

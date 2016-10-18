@@ -28,7 +28,7 @@ var fakeData = [
   "telephone": "48-(552)150-1371",
   "meal": "vivamus in felis eu sapien"
 }, {
-  "restaurant_name": "Skyble",
+  "restaurant_name": "Skyblezx",
   "logo": "http://placehold.it/150x150",
   "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",
   "location": "69 Scofield Alley",
