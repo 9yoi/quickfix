@@ -7,7 +7,7 @@ var angular.module('viewer',['ngRoute'])
     controller: 'MainController'
   });
 })
-.factory('$shops', function() {
+.factory('$shops', function($http) {
 
   var getAll = function () {
     return $http({
