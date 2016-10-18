@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html ng-app="viewer">
-
+<!DOCTYPE html ng-app="viewer">
   <head>
     <title> Quick Fix </title>
 
@@ -19,7 +17,6 @@
     <h1> Order your favorite meals today! </h1>
     
     <div class="container" ng-controller="ShopsController">
-
       <div class="list">
         <div class="entry" ng-repeat="shop in shopsData"> 
           <img class="entry logo" ng-src="{{shop.logo}}">
@@ -29,7 +26,9 @@
             <li> <b> Address: </b>{{shop.location}} </li>
             <li> <b> Contact: </b>{{shop.telephone}} </li>
             <li> <b> Meals Available: </b> {{shop.meal}} </li>
-        </ul> <!-- close entry -->
+          </ul> 
+
+        </div> <!-- close entry -->
       </div>  <!-- close list -->
 
     </div> <!-- close container -->
