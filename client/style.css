@@ -7,6 +7,10 @@
 
 }
 
+nav {
+  display: inline-block;
+}
+
 .entry {
   margin: 1em 1em;
   display: inline-block;
@@ -19,6 +23,7 @@
 
 li {
   list-style: none;
+  margin: 1em 1em;
 }
 
 .info {

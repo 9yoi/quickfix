@@ -12,12 +12,10 @@ var configSettings = function($routeProvider) {
 var shopsFactory = function($http) {
 
   var getAll = function () {
-    console.log("in $Shops getAll")
     return $http({
       method: 'GET',
       url:'/data'
     }).then(function(res) {
-      console.log('res in $Shops', res)
       return res.data;
     })
   };

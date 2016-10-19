@@ -21,6 +21,13 @@
     
     <div class="container" ng-controller="ShopsController">
 
+    <nav class="navBar" >
+      <ul>
+        <li> <h5> Browse Deals </h5></li> 
+        <li> <h5> Submit Deal </h5></li>
+      <ul>
+    </nav>
+
       <div class="list">
         <div class="entry" ng-repeat="shop in data.shops"> 
           <img class="entry logo" ng-src="{{shop.logo}}">
