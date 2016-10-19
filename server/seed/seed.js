@@ -1,5 +1,5 @@
 var Shop = require ('../shops/shopsModel');
-var fakeData = require('../../client/fakeData');
+var fakeData = require('./fakeData');
 
 module.exports = function () {
   Shop.find({}).exec()

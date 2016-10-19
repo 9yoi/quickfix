@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 
 var shopsSchema = new mongoose.Schema({
   restaurant_name: String,
-  logo: Boolean,
+  logo: String,
   description: String,
   location: String,
   telephone: String,

@@ -1,5 +1,5 @@
-var shopsData = 
-[{
+var fakeData = [
+{
   "restaurant_name": "Flipopia",
   "logo": "http://placehold.it/150x150",
   "description": "Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
@@ -28,7 +28,7 @@ var shopsData =
   "telephone": "48-(552)150-1371",
   "meal": "vivamus in felis eu sapien"
 }, {
-  "restaurant_name": "Skyble",
+  "restaurant_name": "Skyblezx",
   "logo": "http://placehold.it/150x150",
   "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",
   "location": "69 Scofield Alley",
@@ -36,4 +36,4 @@ var shopsData =
   "meal": "dui maecenas"
 }];
 
-window.shopsData = shopsData;
+module.exports = fakeData;
