@@ -4,9 +4,7 @@ var bodyParser = require('body-parser'); // pull information from HTML POST (exp
 var path = require('path');
 
 module.exports = function (app) {
-  app.set('views', path.join(__dirname, '/../../client'));
-  app.set('view engine', 'ejs');
-   
+  app.set('views', path.join(__dirname, '/../../client'));   
   app.use(morgan('dev'));
   app.use(bodyParser.json());
   // look for static files in this folder

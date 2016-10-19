@@ -1,15 +1,19 @@
 require('../config/mongoose')();
+var Q = require('q');
 var Shop = require('./shopsModel');
 
+
+// Promisify a few mongoose methods with the `q` promise library
+var findAllShops = Q.nbind(Shop.find, Shop);
 
 module.exports = {
 
   getAll: function (req, res, next) {
-    Shop.find({})
-    .exec()
+    findAllShops({})
+    //.exec()
     .then(function(shopsData){
-      console.log('shopsData length', shopsData.length);
-      //res.json(shopsData);
+      console.log('shopsData length', shopsData);
+      res.send(shopsData);
     }).catch(function(err) {
       console.log('error in getAll', err);
     });

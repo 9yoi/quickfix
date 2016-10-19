@@ -4,9 +4,9 @@
 var shopsController = require ('./shopsController');
 var shopsRouter = require('express').Router();
 
-//shopsRouter.get('/', shopsController.getAll);
+shopsRouter.get('/data', shopsController.getAll);
 
-// for testing only: render static page with fake data
+//for testing only: render static page with fake data
 shopsRouter.get('/', (req, res) => {  
   res.render('index');
 }); 

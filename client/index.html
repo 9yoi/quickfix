@@ -4,8 +4,8 @@
   <head>
     <title> Quick Fix </title>
 
-    <script data-require="angular.js@*" data-semver="1.3.0-beta.5" 
-            src="https://code.angularjs.org/1.3.0-beta.5/angular.js"></script>
+    <script src="angular.js"> </script>
+    <script src="angular-route.js"> </script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <link rel="stylesheet" href="style.css" />
@@ -22,8 +22,8 @@
     <div class="container" ng-controller="ShopsController">
 
       <div class="list">
-        <!--<div class="entry" ng-repeat="shop in data.shops"> -->
-        <div class="entry" ng-repeat="shop in shopsData"> 
+        <div class="entry" ng-repeat="shop in data.shops"> 
+        <!-- <div class="entry" ng-repeat="shop in shopsData">  -->
           <img class="entry logo" ng-src="{{shop.logo}}">
           <ul class = "entry info">
             <li> <h3> {{shop.restaurant_name}} </h3> </li>

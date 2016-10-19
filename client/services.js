@@ -1,29 +1,32 @@
-var app = angular.module('viewer');
+
+var app = angular.module('viewer', ["ngRoute"]);
 
 var configSettings = function($routeProvider) {
   $routeProvider
-  .when('/', {
-    templateUrl: 'index.ejs'
-    controller: 'shopsController'
+  .when('/start', {
+    templateUrl: 'index.ejs',
+    controller: 'ShopsController'
   });
 };
 
 var shopsFactory = function($http) {
 
   var getAll = function () {
+    console.log("in $Shops getAll")
     return $http({
       method: 'GET',
-      url:'/'
-    }).then(function(resp) {
-      console.log('resp in factory $Shop getAll', resp)
+      url:'/data'
+    }).then(function(res) {
+      console.log('res in $Shops', res)
+      return res.data;
     })
   };
 
   return {
-    getAll: getAll; 
+    getAll: getAll 
   }
 
-});
+};
 
 app.config(configSettings);
-app.factory($Shops, shopsFactory)
+app.factory("shopsFactory", shopsFactory)
