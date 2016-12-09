@@ -1,2 +1,1 @@
-#mvp
-This is a project I completed as a student at [hackreactor](http://hackreactor.com). This project was worked on with a pair.
+Built crud app using MEAN stack for last minute meal deals
